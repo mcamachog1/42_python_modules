@@ -1,0 +1,17 @@
+[tool.poetry]
+package-mode = false
+name = "matrix-loader"
+version = "0.1.0"
+description = ""
+authors = ["macamach"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.0"
+numpy = "^1.25"
+matplotlib = "^3.7"
+python-dotenv = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
